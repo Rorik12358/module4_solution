@@ -61,10 +61,10 @@ WARNING!!! WARNING!!!
 
     if (/* fill in condition here */firstLetter === "j") {
       // byeSpeaker.xxxx
-      helloSpeaker.speak(names[i]);
+      byeSpeaker.speak(names[i]);
     } else {
       // helloSpeaker.xxxx
-      byeSpeaker.speak(names[i]);
+      helloSpeaker.speak(names[i]);
     }
   }
 })(window);
